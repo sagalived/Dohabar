@@ -1,3 +1,6 @@
+<?php
+
+?>
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
 * {
 	padding: 0;
