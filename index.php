@@ -29,8 +29,8 @@
           </div>
           <ul>
             <li><a href="/index.html" data-after="Home">Inicio</a></li>
-            <li><a href="/historia.html" data-after="Service">Sobre o Dohabar</a></li>
-            <li><a href="/eventos.html" data-after="Projects">Projetos</a></li>
+            <li><a href="/historia.php" data-after="Service">Sobre o Dohabar</a></li>
+            <li><a href="/eventos.php" data-after="Projects">Projetos</a></li>
             <li><a href="/videos.html" data-after="About">Videos</a></li>
             <li><a href="/falecmg.html" data-after="Contact">Contact</a></li>
             
