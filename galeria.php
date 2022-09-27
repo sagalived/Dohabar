@@ -145,9 +145,7 @@
         <div class="social-item">
           <a href="#"><img src="https://img.icons8.com/3d-fluency/344/github.png" /></a>
         </div>
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/color/344/salesforce.png" /></a>
-        </div>
+       
       </div>
       <p>Copyright © 2022. All rights reserved</p>
     </div>
