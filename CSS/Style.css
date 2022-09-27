@@ -1,0 +1,362 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+/*cabeçario link*/
+.cabeçalholink{
+    position: relative;
+    width: 100%;
+    padding-bottom: 80%;
+    
+      
+
+}
+
+.background{
+    background-image: url("https://scontent.fjdo10-1.fna.fbcdn.net/v/t39.30808-6/300750525_498442288950023_7970045950768955606_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_ohc=2onCQnL7iV8AX-JAlQk&_nc_ht=scontent.fjdo10-1.fna&oh=00_AT84W_pBL7K5QD-OhggBI3WCc7UMCJWy7-NfF6A7oOdytA&oe=633666B7");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+
+}
+/*youtube*/
+.yout{
+    position: relative;
+    width: 20%;
+    padding-bottom: 56.25%;   
+
+}
+
+.yout iframe{
+    position: absolute; 
+    width: 140%;
+    height: 80%;    
+    border: none;
+
+
+}
+
+/*final do youtube*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    
+	cursor: pointer;    
+    position: absolute;
+    top: 20px;
+    image-rendering: auto;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 90%;
+}
+
+span{
+    color: #f90000ab;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f90000ab;
+    transform: .4s;
+}
+
+.btn{
+    position: relative;
+    left: 100px;
+    background-color: #f90000ab;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    height: 40;
+    width: 10%;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.Main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.Main span{
+    color: #f90000ab;
+}
+
+h1{
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h4{
+    color: rgba(227, 225, 236, 0.932);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.Container-btn form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.Container-btn form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f90000ab;
+    border-radius: 30px;
+    outline: none;
+}
+
+.Container-btn form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f90000ab;
+    color: #fff;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    right: 6px;
+    top: 6px;
+    
+}
+
+.background-color-Sobre{
+    background-color: rgb(35, 31, 32);
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+
+.background-color-Sobre img{
+    
+    width: 430px;
+    height: auto;
+}
+
+.Text-sobre{
+    width: 550px;
+}
+
+.main-sobre{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 1130px;
+   margin: 0 auto;
+}
+
+.Text-sobre h2{
+    color: #fff;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.Text-sobre h5{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.Text-sobre p{
+    color: rgba(241, 233, 241, 0.986);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: #f90000ab;
+    color: #fff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+    
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f90000ab;
+    cursor: pointer;
+}
+
+.Container-serviços{
+    background-color: rgb(35, 31, 32);
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: #fff;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.Caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.Card{
+    background: #191919;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align:  center;
+    
+}
+
+.Card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f90000ab;
+}
+
+h5{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.Paragrafo-button{
+    color: rgba(236, 229, 236, 0.979);
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+.Paragrafo-button button{
+    margin-top: 25px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(35, 31, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h6{
+    font-size: 35px;
+    color: #fff;
+}
+
+footer p{
+    color: #fff;
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.Redes-sociais{
+    display: flex;
+    
+}
+.whats{
+    width: 45px;
+}
+.facebook{
+    width: 40px;
+}
+.instam{
+    width: 45px;
+}
+.gith{
+    width: 58px;
+}
+.salesf{
+    width: 48px;
+}
+.Redes-sociais a{
+    background-color: #f90000ab;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Redes-sociais a:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+
+.end{
+    position: absolute;
+    color: #f90000ab;
+    bottom: 35px;
+    font-size: 14px ;
+}
