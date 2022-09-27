@@ -9,7 +9,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/style.php">
   <title>DOHA BAR</title>
 </head>
 
@@ -19,7 +19,7 @@
     <div class="header container">
       <div class="nav-bar">
         <div class="brand">
-          <a href="/index.html">
+          <a href="/index.php">
             <h1><img src="img/dohabar.jpg" alt="iconDohabar"></h1>
           </a>
         </div>
@@ -28,11 +28,11 @@
             <div class="bar"></div>
           </div>
           <ul>
-            <li><a href="/index.html" data-after="Home">Inicio</a></li>
+            <li><a href="/index.php" data-after="Home">Inicio</a></li>
             <li><a href="/historia.php" data-after="Service">Sobre o Dohabar</a></li>
             <li><a href="/eventos.php" data-after="Projects">Projetos</a></li>
-            <li><a href="/videos.html" data-after="About">Videos</a></li>
-            <li><a href="/falecmg.html" data-after="Contact">Contact</a></li>
+            <li><a href="/videos.php" data-after="About">Videos</a></li>
+            <li><a href="/falecmg.php" data-after="Contact">Contact</a></li>
             
           </ul>
         </div>        
